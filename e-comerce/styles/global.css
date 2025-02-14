@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+:root{
+    --bg-color-primary:blueviolet;
+    --bg-color-segundary:black;
+
+    --text-color:#000;
+    --ff-base:"Roboto", sans-serif;
+    --ff-segund:"Poppins", sans-serif
+    
+}
+
+html{
+    font-family: var(--ff-base);
+    font-size: 1rem/1.5;
+    font-weight: 500;
+}
+
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1.25rem 2rem;
+}
+
+h1{
+    font-size: 4rem;
+}

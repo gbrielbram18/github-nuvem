@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+
+.titulo{
+    text-align: center;
+   
+}
+
+#h2{
+    text-align: center;
+    color: blue;
+}
+
+.j3{
+   margin: 0 25px;
+
+}
+
+.p{
+    border: 0 1400px;
+    text-align: center;
+}
+
+.j4 {
+    background-color: white ;
+    width:750px ;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+a{
+    color: brown;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.j7{
+    color: rgb(188, 188, 188);
+}

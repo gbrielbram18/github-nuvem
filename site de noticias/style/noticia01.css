@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(161, 161, 161);
+   
+
+}
+div{
+    background-color: white;
+    width: 750px;
+    margin: 0 auto ;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 12px;
+
+}
+.titulodo01{
+    text-align: center;
+   
+
+    
+}
+
+p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 35px;
+}

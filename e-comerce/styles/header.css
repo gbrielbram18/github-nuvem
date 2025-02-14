@@ -1,0 +1,95 @@
+header{
+    max-width: 80rem;
+    width: 100%;
+    padding: 1.25rem 2rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+
+}
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 1s ease;
+}
+
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+
+header .icons-left{
+   display: flex;
+   gap: 1.3rem;
+}
+
+header img{
+    width: 1.7rem;
+    height: 2rem;
+}
+
+.shopping-bag-icon{
+    position: relative;
+}
+
+.shopping-bag-icon span{
+    position: absolute;
+    right: -0.2rem;
+    top: -0.4rem;
+
+
+    width: 1.25rem;
+    height: 1.25rem;
+
+    background-color: lightblue;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-size: 0.8rem;
+
+    border-radius: 50%;
+}
+
+.shopping-bag-icon:hover{
+    animation: balancar 0.6s ease-in-out;
+}
+
+header > span{
+    font-family: var(--ff-segund);
+    font-weight: 600;
+}
+
+@keyframes balancar{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-6px);
+    }
+
+    50%{
+        transform: translateX(6px);
+    }
+
+    75%{
+        transform: translateX(-6px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.sapo{
+    width: 50px;
+}

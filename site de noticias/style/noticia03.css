@@ -1,0 +1,17 @@
+
+body{ 
+    background-color: rgb(161, 161, 161);
+    text-align: center;
+    margin: 0 auto ;
+    padding: 25px;
+    margin-top: 15px;
+
+}
+
+
+p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 35px;
+}
